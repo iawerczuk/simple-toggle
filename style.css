@@ -3,10 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 10px;
-    background-color: rgba(0, 0, 0, 0.904);
 }
 
 .toggle{
+    background-color: rgba(0, 0, 0, 0.904);
     width: 100vw;
     height: 100vh;
     padding: 10rem;
@@ -19,9 +19,9 @@ display: none;
 }
 
 .switch{
-    width: 10rem;
+    width: 15rem;
     height: 5rem;
-    background-color:rgb(212, 131, 148);
+    background-color:rgb(173, 173, 173);
     border-radius: 5rem;
     overflow: hidden;
     position: relative;
@@ -45,13 +45,14 @@ display: none;
 .switch::before{
 left: -50%;
 content: "ON";
-background-color: forestgreen;
+background-color: yellow;
 }
 
 .switch::after{
 right: 5px;
 content: "OFF";
-background-color: crimson;
+color: blanchedalmond;
+background-color: black;
 }
 
 .checkbox:checked + .switch::before{
@@ -63,5 +64,5 @@ right: -50%;
 }
 
 .checkbox:checked + .switch{
-background-color:rgb(59, 240, 59);
+background-color:rgb(253, 253, 198);
 }
